@@ -1,7 +1,8 @@
 init --- initialize
 status --- get status
 add --- add a file (or . for all)
-switch (-c) "branch name" --- new branch
+switch "branch name" --- switch branch
+switch -c "branch name" --- create branch
 commit - m "text" --- make a commit
 git log --oneline --- all that happened on git and github
 branch --- shows branches and current ("\*")

@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+}
+title {
+  display: flex;
+  text-align: center;
+}
+#header {
+  color: white;
+  background-color: blue;
+}
