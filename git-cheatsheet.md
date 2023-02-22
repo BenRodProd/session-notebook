@@ -10,3 +10,4 @@ push origin branch --- uploads to github
 push -u origin "file" --- upload to active branch
 git pull --- download from github
 git restore --- restore status from a set commit
+git ignore --- define files that never will be shared
