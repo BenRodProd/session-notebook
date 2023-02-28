@@ -40,7 +40,7 @@ window.onload = function () {
     let left = e.pageX;
     let top = e.pageY;
     fccWeb.style.left = 10 + "%";
-    fccWeb.style.top = top - 40 + "px";
+    fccWeb.style.top = top - 300 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(fccWeb);
     }, 300);
@@ -54,8 +54,8 @@ window.onload = function () {
     aboutdiv.appendChild(fcJimg);
     let left = e.pageX;
     let top = e.pageY;
-    fcJimg.style.left = 250 + "px";
-    fcJimg.style.top = top - 40 + "px";
+    fcJimg.style.left = 10 + "%";
+    fcJimg.style.top = top - 300 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(fcJimg);
     }, 300);

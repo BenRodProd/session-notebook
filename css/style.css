@@ -211,10 +211,17 @@ img {
 h2 {
   font-size: 2rem;
 }
+#symbols {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 0;
+}
 #symbol1 {
   box-shadow: 0 0 0 0;
   background-color: rgb(0, 0, 0, 0);
-  max-width: 10%;
 }
 #symbol2 {
   box-shadow: 0 0 0 0;
