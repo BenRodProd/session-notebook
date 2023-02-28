@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: black;
   display: flexbox;
@@ -10,6 +14,10 @@ body {
   top: 100px;
   max-width: 900px;
   font-family: sans-serif;
+}
+#big {
+  display: flexbox;
+  position: relative;
 }
 
 #navbar {
@@ -241,6 +249,9 @@ h2 {
   color: white;
   padding-bottom: 20px;
 }
+#about-text:hover {
+  cursor: default;
+}
 
 /* PACMANSTYLE */
 /* .circle {
@@ -381,18 +392,65 @@ ul {
 }
 
 #jugendforscht {
-  margin-bottom: 0;
   color: white;
 }
 #jfimg {
-  z-index: 20;
-  background-color: red;
-}
-#jfimgdiv {
+  display: flexbox;
   position: absolute;
+  height: 10%;
+  width: 90%;
+  border: 3px solid white;
+  max-width: 900px;
   z-index: 20;
-  background-color: red;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
 }
+#fccWeb {
+  position: absolute;
+  height: 15%;
+  width: 65%;
+  border: 3px solid white;
+
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#fcJimg {
+  position: absolute;
+  height: 15%;
+  width: 65%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#cpWepImg {
+  position: absolute;
+  height: 20%;
+  width: 40%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#cpJSImg {
+  position: absolute;
+  height: 20%;
+  width: 40%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+
 #about-text a {
   box-shadow: 0 0 10px 3px blue;
 }
