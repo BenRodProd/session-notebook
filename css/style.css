@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+* {
+  box-sizing: border-box;
+}
+
+>>>>>>> benrodprod
 body {
   background: black;
   display: flexbox;
@@ -11,22 +18,50 @@ body {
   max-width: 900px;
   font-family: sans-serif;
 }
+<<<<<<< HEAD
 #navbar {
   padding-top: 30px;
+=======
+#big {
+  display: flexbox;
+  position: relative;
+}
+
+#navbar {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+>>>>>>> benrodprod
   word-spacing: 5rem;
   color: white;
   font-size: 1.5rem;
   top: 0px;
   width: 100%;
+<<<<<<< HEAD
+=======
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-radius: 0% 0% 30% 30%;
+>>>>>>> benrodprod
 }
 a:link {
   text-decoration: none;
 }
+<<<<<<< HEAD
 
 a:visited {
   text-decoration: none;
 
   text-decoration: none;
+=======
+div {
+  margin-bottom: 20%;
+}
+a:visited {
+  text-decoration: none;
+>>>>>>> benrodprod
 }
 
 a:hover {
@@ -51,9 +86,16 @@ a {
   background-color: rgba(21, 0, 255, 0.839);
   border-radius: 25% 100% 25% 100%;
   box-shadow: 0 0 40px 20px blue;
+<<<<<<< HEAD
 }
 #header:hover {
   animation: shake 1s;
+=======
+  margin-bottom: 50px;
+}
+#header:hover {
+  animation: shake 4s;
+>>>>>>> benrodprod
   animation-iteration-count: infinite;
 }
 
@@ -62,24 +104,39 @@ a {
     transform: translate(1px, 1px) rotate(0deg);
   }
   10% {
+<<<<<<< HEAD
     transform: translate(-1px, -2px) rotate(-1deg);
   }
   20% {
     transform: translate(-3px, 0px) rotate(1deg);
+=======
+    transform: translate(-1px, -2px) rotate(-2deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(2deg);
+>>>>>>> benrodprod
   }
   30% {
     transform: translate(3px, 2px) rotate(0deg);
   }
   40% {
+<<<<<<< HEAD
     transform: translate(1px, -1px) rotate(1deg);
   }
   50% {
     transform: translate(-1px, 2px) rotate(-1deg);
+=======
+    transform: translate(1px, -1px) rotate(2deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-2deg);
+>>>>>>> benrodprod
   }
   60% {
     transform: translate(-3px, 1px) rotate(0deg);
   }
   70% {
+<<<<<<< HEAD
     transform: translate(3px, 1px) rotate(-1deg);
   }
   80% {
@@ -90,6 +147,18 @@ a {
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
+=======
+    transform: translate(3px, 1px) rotate(-2deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(2deg);
+  }
+  90% {
+    transform: translate(1px, 0px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0px, 1px) rotate(0deg);
+>>>>>>> benrodprod
   }
 }
 #about {
@@ -100,6 +169,7 @@ a {
   animation-name: colorchanger;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+<<<<<<< HEAD
 }
 
 #about:hover {
@@ -115,18 +185,75 @@ a {
     background-color: rgb(0, 13, 255);
     box-shadow: 0 0 40px 20px rgb(0, 13, 255);
   }
+=======
+
+  margin-bottom: 50px;
+}
+
+#about:hover {
+  animation: shake 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bordersmooth {
+  0% {
+    box-shadow: 0 0 0px px white;
+  }
+  50% {
+    box-shadow: 0 0 10px 5px white;
+  }
+  100% {
+    box-shadow: 0 0 0px px white;
+  }
+}
+
+@keyframes colorchanger {
+  0% {
+    background-color: rgb(115, 0, 255);
+    box-shadow: 0 0 40px 20px rgb(115, 0, 255);
+  }
+  50% {
+    background-color: rgb(0, 13, 255);
+    box-shadow: 0 0 40px 20px rgb(0, 13, 255);
+  }
+  1000% {
+    background-color: rgb(115, 0, 255);
+    box-shadow: 0 0 40px 20px rgb(115, 0, 255);
+  }
+>>>>>>> benrodprod
 }
 #about-text {
   border-style: solid;
   border-color: white;
   border-radius: 30px;
+<<<<<<< HEAD
 
   color: white;
+=======
+  animation-name: bordersmooth;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  color: white;
+  padding: 0 10%;
+}
+
+#about-text p::first-letter {
+  font-size: 3rem;
+}
+p {
+  line-height: 170%;
+>>>>>>> benrodprod
 }
 #pic {
   border-style: solid;
   border-color: white;
   border-radius: 30px;
+<<<<<<< HEAD
+=======
+  animation-name: bordersmooth;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+>>>>>>> benrodprod
 }
 img {
   width: 30%;
@@ -137,6 +264,7 @@ img {
   position: relative;
   top: -50px;
 }
+<<<<<<< HEAD
 #contact {
   border-style: solid;
   border-color: white;
@@ -144,10 +272,48 @@ img {
 }
 #email {
   font-size: 1.5rem;
+=======
+.contactdata {
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+  animation-name: bordersmooth;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+#contact {
+  color: white;
+  background-color: rgba(21, 0, 255, 0.839);
+  border-radius: 25% 100% 25% 100%;
+  box-shadow: 0 0 40px 20px blue;
+  margin-bottom: 50px;
+}
+#contact:hover {
+  animation: shake 4s;
+  animation-iteration-count: infinite;
+}
+
+#email {
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+>>>>>>> benrodprod
 }
 h2 {
   font-size: 2rem;
 }
+<<<<<<< HEAD
+=======
+#symbols {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 0;
+}
+>>>>>>> benrodprod
 #symbol1 {
   box-shadow: 0 0 0 0;
   background-color: rgb(0, 0, 0, 0);
@@ -164,3 +330,257 @@ h2 {
   box-shadow: 0 0 40px 10px rgb(64, 255, 0);
   background-color: rgba(64, 255, 0, 0.597);
 }
+<<<<<<< HEAD
+=======
+.projects {
+  color: white;
+  background-color: rgba(21, 0, 255, 0.839);
+  border-radius: 25% 100% 25% 100%;
+  box-shadow: 0 0 40px 20px blue;
+  margin-bottom: 50px;
+}
+.projects:hover {
+  animation: shake 4s;
+  animation-iteration-count: infinite;
+}
+.projectlist {
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+  animation-name: bordersmooth;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  color: white;
+  padding-bottom: 20px;
+}
+#about-text:hover {
+  cursor: default;
+}
+
+/* PACMANSTYLE */
+/* .circle {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #e7ff4b;
+  border-left: 30px solid #e7ff4b;
+  border-bottom: 30px solid #e7ff4b;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 0 40px 20px blue;
+  animation-name: pacman;s
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+@keyframes pacman {
+  0% {
+    border-right: 30px solid transparent;
+  }
+  50% {
+    border-right: 30px solid #e7ff4b;
+  }
+  100% {
+    border-right: 30px solid transparent;
+  }
+} */
+
+/* LOOKTHROUGH */
+.circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 20px blue;
+}
+
+footer {
+  margin-bottom: 5%;
+}
+ul {
+  list-style-type: none;
+  margin: 5%;
+  font-size: 1.2rem;
+}
+
+#scanner {
+  position: absolute;
+  width: 0;
+  height: 9%;
+  border-radius: 0px solid white;
+  box-shadow: 0 0 80px 20px blue;
+
+  z-index: -5;
+  animation-name: scanner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes scanner {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+#picscanner {
+  position: absolute;
+  width: 0;
+  height: 27%;
+  border-radius: 0px solid white;
+  box-shadow: 0 0 80px 20px blue;
+
+  z-index: -5;
+  animation-name: scanner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#contactscanner {
+  position: absolute;
+  width: 0;
+  height: 25%;
+  border-radius: 0px solid white;
+  box-shadow: 0 0 80px 20px blue;
+
+  z-index: -5;
+  animation-name: scanner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#aboutscanner {
+  position: absolute;
+  width: 0;
+  height: 20%;
+  border-radius: 0px solid white;
+  box-shadow: 0 0 80px 20px blue;
+
+  z-index: -5;
+  animation-name: scanner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#projectscanner {
+  position: absolute;
+  width: 0;
+  height: 7%;
+  border-radius: 0px solid white;
+  box-shadow: 0 0 80px 20px blue;
+
+  z-index: -5;
+  animation-name: scanner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.stacks {
+  padding: 0;
+}
+
+#stackscanner {
+  position: absolute;
+  width: 0;
+  height: 7%;
+  border-radius: 0px solid white;
+  box-shadow: 0 0 80px 20px blue;
+
+  z-index: -5;
+  animation-name: scanner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#jugendforscht {
+  color: white;
+}
+#jfimg {
+  display: flexbox;
+  position: absolute;
+  height: 10%;
+  width: 90%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#fccWeb {
+  position: absolute;
+  height: 15%;
+  width: 65%;
+  border: 3px solid white;
+
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#fcJimg {
+  position: absolute;
+  height: 15%;
+  width: 65%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#cpWepImg {
+  position: absolute;
+  height: 20%;
+  width: 40%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#cpJSImg {
+  position: absolute;
+  height: 20%;
+  width: 40%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#BRdeImg {
+  position: absolute;
+  height: 20%;
+  width: 80%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 20;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+#BTdeImg {
+  position: absolute;
+  height: 15%;
+  width: 80%;
+  border: 3px solid white;
+  max-width: 900px;
+  z-index: 25;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+
+#about-text a {
+  box-shadow: 0 0 10px 1px blue;
+}
+#about-text a:hover {
+  box-shadow: 0 0 30px 5px green;
+}
+>>>>>>> benrodprod
