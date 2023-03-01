@@ -162,8 +162,12 @@ a {
   color: white;
   padding: 0 10%;
 }
+
 #about-text p::first-letter {
   font-size: 3rem;
+}
+p {
+  line-height: 170%;
 }
 #pic {
   border-style: solid;
@@ -313,7 +317,7 @@ ul {
 #scanner {
   position: absolute;
   width: 0;
-  height: 8%;
+  height: 9%;
   border-radius: 0px solid white;
   box-shadow: 0 0 80px 20px blue;
 
@@ -336,7 +340,7 @@ ul {
 #picscanner {
   position: absolute;
   width: 0;
-  height: 20%;
+  height: 27%;
   border-radius: 0px solid white;
   box-shadow: 0 0 80px 20px blue;
 
@@ -348,7 +352,7 @@ ul {
 #contactscanner {
   position: absolute;
   width: 0;
-  height: 40%;
+  height: 25%;
   border-radius: 0px solid white;
   box-shadow: 0 0 80px 20px blue;
 
@@ -360,7 +364,7 @@ ul {
 #aboutscanner {
   position: absolute;
   width: 0;
-  height: 30%;
+  height: 20%;
   border-radius: 0px solid white;
   box-shadow: 0 0 80px 20px blue;
 
@@ -372,7 +376,7 @@ ul {
 #projectscanner {
   position: absolute;
   width: 0;
-  height: 14%;
+  height: 7%;
   border-radius: 0px solid white;
   box-shadow: 0 0 80px 20px blue;
 
@@ -388,7 +392,7 @@ ul {
 #stackscanner {
   position: absolute;
   width: 0;
-  height: 10%;
+  height: 7%;
   border-radius: 0px solid white;
   box-shadow: 0 0 80px 20px blue;
 

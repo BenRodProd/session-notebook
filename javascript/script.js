@@ -66,9 +66,9 @@ window.onload = function () {
     cpWepImg.setAttribute("id", "cpWepImg");
     cpWepImg.setAttribute("src", "../html/certificate.png");
     aboutdiv.appendChild(cpWepImg);
-    let left = e.pageX;
+    let left = e.layerX;
     let top = e.pageY;
-    cpWepImg.style.left = left - 450 + "px";
+    cpWepImg.style.left = left + "px";
     cpWepImg.style.top = top - 400 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(cpWepImg);
@@ -80,9 +80,9 @@ window.onload = function () {
     cpJSImg.setAttribute("id", "cpJSImg");
     cpJSImg.setAttribute("src", "../html/certificate-1.png");
     aboutdiv.appendChild(cpJSImg);
-    let left = e.pageX;
+    let left = e.layerX;
     let top = e.pageY;
-    cpJSImg.style.left = left - 450 + "px";
+    cpJSImg.style.left = left + "px";
     cpJSImg.style.top = top - 400 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(cpJSImg);
