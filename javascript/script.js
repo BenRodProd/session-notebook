@@ -13,6 +13,8 @@ window.onload = function () {
   const fccJ = document.getElementById("fccJS");
   const cpWep = document.getElementById("cpWep");
   const cpJS = document.getElementById("cpJS");
+  const BRde = document.getElementById("BenjaminRodensteinDe");
+  const BTde = document.getElementById("BenjoTrashDe");
 
   const aboutdiv = document.getElementById("about-text");
   // JUGENDFORSCHT
@@ -22,9 +24,9 @@ window.onload = function () {
     jfimg.setAttribute("id", "jfimg");
     jfimg.setAttribute("src", "../html/jugendforscht95jpg.jpg");
     aboutdiv.appendChild(jfimg);
-    let left = e.pageX;
+    let left = e.layerX;
     let top = e.pageY;
-    jfimg.style.left = 225 + "px";
+    jfimg.style.left = left - 200 + "px";
     jfimg.style.top = top - 40 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(jfimg);
@@ -52,9 +54,9 @@ window.onload = function () {
     fcJimg.setAttribute("id", "fcJimg");
     fcJimg.setAttribute("src", "../html/freecodecampjs.jpg");
     aboutdiv.appendChild(fcJimg);
-    let left = e.pageX;
+    let left = e.layerX;
     let top = e.pageY;
-    fcJimg.style.left = 10 + "%";
+    fcJimg.style.left = left - 40 + "px";
     fcJimg.style.top = top - 300 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(fcJimg);
@@ -68,7 +70,7 @@ window.onload = function () {
     aboutdiv.appendChild(cpWepImg);
     let left = e.layerX;
     let top = e.pageY;
-    cpWepImg.style.left = left + "px";
+    cpWepImg.style.left = left - 40 + "px";
     cpWepImg.style.top = top - 400 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(cpWepImg);
@@ -82,10 +84,38 @@ window.onload = function () {
     aboutdiv.appendChild(cpJSImg);
     let left = e.layerX;
     let top = e.pageY;
-    cpJSImg.style.left = left + "px";
+    cpJSImg.style.left = left - 40 + "px";
     cpJSImg.style.top = top - 400 + "px";
     setTimeout(() => {
       aboutdiv.removeChild(cpJSImg);
+    }, 300);
+  });
+  BRde.addEventListener("mouseover", (e) => {
+    const BRdeImg = document.createElement("img");
+
+    BRdeImg.setAttribute("id", "BRdeImg");
+    BRdeImg.setAttribute("src", "../html/authorpage.png");
+    aboutdiv.appendChild(BRdeImg);
+    let left = e.layerX;
+    let top = e.pageY;
+    BRdeImg.style.left = left - 40 + "px";
+    BRdeImg.style.top = top - 400 + "px";
+    setTimeout(() => {
+      aboutdiv.removeChild(BRdeImg);
+    }, 300);
+  });
+  BTde.addEventListener("mouseover", (e) => {
+    const BTdeImg = document.createElement("img");
+
+    BTdeImg.setAttribute("id", "BTdeImg");
+    BTdeImg.setAttribute("src", "../html/benjotrash.gif");
+    aboutdiv.appendChild(BTdeImg);
+    let left = e.layerX;
+    let top = e.layerY;
+    BTdeImg.style.left = left - 140 + "px";
+    BTdeImg.style.top = top - 140 + "px";
+    setTimeout(() => {
+      aboutdiv.removeChild(BTdeImg);
     }, 300);
   });
 };
